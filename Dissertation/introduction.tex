@@ -1,0 +1,32 @@
+\chapter*{Введение}							% Заголовок
+\addcontentsline{toc}{chapter}{Введение}	% Добавляем его в оглавление
+
+\newcommand{\actuality}{\underline{\textbf{Актуальность темы исследования.}}}
+\newcommand{\aim}{\underline{\textbf{Целью}}}
+\newcommand{\tasks}{\underline{\textbf{задачи}}}
+\newcommand{\defpositions}{\underline{\textbf{Положения, выносимые на~защиту:}}}
+\newcommand{\novelty}{\underline{\textbf{Научная новизна:}}}
+\newcommand{\influence}{\underline{\textbf{Практическая значимость:}}}
+\newcommand{\methodology}{\underline{\textbf{Методы исследования.}}}
+\newcommand{\reliability}{\underline{\textbf{Достоверность}}}
+\newcommand{\probation}{\underline{\textbf{Апробация результатов.}}}
+\newcommand{\contribution}{\underline{\textbf{Личный вклад.}}}
+\newcommand{\implement}{\underline{\textbf{Внедрение результатов.}}}
+\newcommand{\publications}{\underline{\textbf{Публикации.}}}
+\newcommand{\structure}{\underline{\textbf{Структура и объем работы.}}}
+
+\input{../common/characteristic_dis} % Характеристика работы по структуре во введении и в автореферате не отличается (ГОСТ Р 7.0.11, пункты 5.3.1 и 9.2.1), потому её загружаем из одного и того же внешнего файла, предварительно задав форму выделения некоторым параметрам
+
+%% регистрируем счётчики в системе totcounter
+\regtotcounter{totalcount@figure}
+\regtotcounter{totalcount@table}       % Если поставить в преамбуле то ошибка в числе таблиц
+\regtotcounter{TotPages}               % Если поставить в преамбуле то ошибка в числе страниц
+
+\textbf{Объем и структура работы.} Диссертация состоит из~введения, четырех глав, заключения, списка литературы и~трех приложений.
+%% на случай ошибок оставляю исходный кусок на месте, закомментированным
+%Полный объём диссертации составляет  \ref*{TotPages}~страницу с~\totalfigures{}~рисунками и~\totaltables{}~таблицами. Список литературы содержит \total{citenum}~наименований.
+%
+Полный объем диссертации составляет \formbytotal{TotPages}{страниц}{у}{ы}{} 
+с~\formbytotal{totalcount@figure}{рисунк}{ом}{ами}{ами}
+и~\formbytotal{totalcount@table}{таблиц}{ей}{ами}{ами}. Список литературы содержит  
+\formbytotal{citenum}{наименован}{ие}{ия}{ий}.

@@ -1,0 +1,37 @@
+\documentclass[a4paper,14pt]{extarticle} %,twoside
+
+% убрать 6-й вывод
+
+\input{setup}               % Упрощённые настройки шаблона 
+
+\input{../common/packages}  % Пакеты общие для диссертации и автореферата
+\input{synpackages}         % Пакеты для автореферата
+\input{userpackages}        % Пакеты для специфических пользовательских задач
+\input{../common/styles}    % Стили общие для диссертации и автореферата
+\input{synstyles}           % Стили для автореферата
+\input{userstyles}          % Стили для специфических пользовательских задач
+%\input{../biblio/bibliopreamble}% Настройки библиографии из внешнего файла (там же выбор: встроенная или на основе biblatex)
+%\input{../biblio/biblatex}
+\input{../biblio/predefined}
+\input{../common/data}      % Основные сведения
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+\usetikzlibrary{shapes.geometric,calc,chains}
+\usetikzlibrary{arrows.meta}
+
+% -------------------------------- Bibliography 
+%\NewBibliographyString{langjapanese}
+%\NewBibliographyString{fromjapanese}
+
+%\usepackage{layout}
+%\usepackage{showframe}
+
+\begin{document}
+
+%\layout{}
+
+\input{title}           % Титульный лист
+\input{content}         % Содержание автореферата
+
+\end{document}

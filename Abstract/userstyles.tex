@@ -1,0 +1,25 @@
+% \newcounter{pgnum}
+% 
+% %% Оглавление
+% \setcounter{pgnum}{1}               % 0 --- номера страниц никак не обозначены; 1 --- Стр. над номерами страниц (дважды компилировать после изменения)
+
+\usepackage{fancyhdr}
+% 
+\ifnum\curtextsize>\bigtextsize     % Проверяем условие использования базового шрифта 14 pt
+\setlength{\headheight}{17pt}       % Исправляем высоту заголовка
+\else
+\setlength{\headheight}{15pt}       % Исправляем высоту заголовка
+\fi
+% 
+\headsep=20pt % 38 % 18
+% %\footskip=30.0pt % 12 | 17
+\topmargin=-53pt % 66 % 51
+% 
+\makeatletter
+\let\ps@plain\ps@fancy              % Подчиняем первые страницы каждой главы общим правилам
+\makeatother
+\pagestyle{fancy}                   % Меняем стиль оформления страниц
+\fancyhf{}                          % Очищаем текущие значения
+\fancyhead[C]{\thepage}             % Печатаем номер страницы на середине верхнего поля
+\renewcommand{\headrulewidth}{0pt}  % Убираем разделительную линию
+% %\makeatother

@@ -1,0 +1,1428 @@
+\ifx\undefined\BibEmph\def\BibEmph#1{#1}\else\fi
+\ifx\undefined\href\def\href#1#2{#2}\else\fi
+\ifx\undefined\url\def\url#1{\texttt{#1}}\else\fi
+\ifx\undefined\urlprefix\def\urlprefix{URL: }\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\urlprefix\url{#1}}\else\fi
+\ifx\undefined\BibUrlDate\long\def\BibUrlDate#1{({%
+\cyr\cyrd\cyra\cyrt\cyra\ %
+\cyro\cyrb\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}: #1)}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{#1}\else\fi
+\begin{thebibliography}{100}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+
+\bibitem{identification_usa}
+\selectlanguageifdefined{russian}
+\BibEmph{Гроп~Д.} Методы идентификации систем.
+\newblock Мир, 1979.
+
+\bibitem{identification_ljung}
+\selectlanguageifdefined{russian}
+\BibEmph{Льюнг~Л.} Идентификация систем. Теория
+  для пользователя.
+\newblock Наука, 1991.
+
+\bibitem{biotech_basics}
+\selectlanguageifdefined{russian}
+\BibEmph{Акулов~С.~А., Федотов~А.~А.} Основы
+  теории биотехнических систем.
+\newblock Физматлит, 2014.
+
+\bibitem{trojan}
+\selectlanguageifdefined{russian}
+\BibEmph{Трояновский~В.~М.} Компьютерное
+  моделирование процедур идентификации
+  динамических объектов~// \BibEmph{Известия
+  высших учебных заведений. Электроника}.
+\newblock 2008.
+\newblock {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~16--17.
+
+\bibitem{vest_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Иткин~Г.~П., Филатов~И.~А., Дозоров~К.~Н.,
+  Адаскин~А.~В.} Косвенные методы
+  определения расхода и напора роторных
+  насосов для крови~// \BibEmph{Вестник
+  трансплантологии и искусственных
+  органов}.
+\newblock 2015.
+\newblock no.~4.
+\newblock P.~97--102.
+
+\bibitem{dozorov_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Дозоров~К.~Н.}
+\newblock Биотехническая система мониторинга и
+  управления вспомогательным роторным
+  насосом крови: автореферат диссертации
+  кандидата технических наук: 05.11.17 / МГТУ им.
+  Н. Э. Баумана, Москва.
+\newblock 2009. С. 16.
+
+\bibitem{solod_1994}
+\selectlanguageifdefined{english}
+\BibEmph{Солодянников~Ю.~В.}
+\newblock Элементы математического
+  моделирования и идентификация системы
+  кровообращения: монография //
+  Издательство Самарского университета.
+\newblock 1994.
+
+\bibitem{tmur_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Тмур~А.~Б.}
+\newblock Методы идентификации
+  технологического процесса
+  трубопроводного транспорта нефти:
+  автореферат диссертации кандидата
+  технических наук: 05.13.06 / Институт проблем
+  управления им. В. А. Трапезникова
+  Российской академии наук, Москва.
+\newblock 2014. С. 23.
+
+\bibitem{Moscato_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Moscato~F., Danieli~G.~A., Schima~H.} Dynamic modeling and
+  identification of an axial flow ventricular assist device.~// \BibEmph{The
+  International Journal of Artificial Organs}.
+\newblock 2009.
+\newblock Vol.~32, no.~6.
+\newblock P.~336--343.
+
+\bibitem{Pirbodaghi_2017}
+\selectlanguageifdefined{english}
+\BibEmph{Pirbodaghi~T.} Mathematical Modeling of Rotary Blood Pumps in a
+  Pulsatile In Vitro Flow Environment~//
+  \href{http://dx.doi.org/10.1111/aor.12860}{\BibEmph{Artificial Organs}}.
+\newblock 2017.
+\newblock Vol.~41, no.~8.
+\newblock P.~710--716.
+
+\bibitem{debakey2000odyssey}
+\selectlanguageifdefined{english}
+\BibEmph{DeBakey~M.~E.} The odyssey of the artificial heart~//
+  \BibEmph{Artificial organs}.
+\newblock 2000.
+\newblock Vol.~24, no.~6.
+\newblock P.~405--411.
+
+\bibitem{starling2011potential}
+\selectlanguageifdefined{english}
+\BibEmph{Starling~R., Gorodeski~E.} Potential population for long-term use of
+  left ventricular assist devices~// \BibEmph{Mechanical Circulatory Support: A
+  Companion to Braunwald's Heart Disease}.
+\newblock 2011.
+
+\bibitem{ponikowski2014heart}
+\selectlanguageifdefined{english}
+\BibEmph{Ponikowski~P., Anker~S.~D., AlHabib~K.~F. et~al.} Heart failure:
+  preventing disease and death worldwide~// \BibEmph{ESC Heart Failure}.
+\newblock 2014.
+\newblock Vol.~1, no.~1.
+\newblock P.~4--25.
+
+\bibitem{wong2014epidemiological}
+\selectlanguageifdefined{english}
+\BibEmph{Wong~N.~D.} Epidemiological studies of CHD and the evolution of
+  preventive cardiology~// \BibEmph{Nature Reviews Cardiology}.
+\newblock 2014.
+\newblock Vol.~11, no.~5.
+\newblock P.~276--289.
+
+\bibitem{selishchev2015ventricular}
+\selectlanguageifdefined{english}
+\BibEmph{Selishchev~S., Telyshev~D.} Ventricular assist device Sputnik:
+  description, technical features and characteristics~// \BibEmph{Trends in
+  Biomaterials and Artificial Organs}.
+\newblock 2015.
+\newblock Vol.~29, no.~3.
+\newblock P.~207--210.
+
+\bibitem{frazier2017invited}
+\selectlanguageifdefined{english}
+\BibEmph{Frazier~O.} Invited Lecture <<Pioneering the Future: From Transplant
+  to Device Development>>~// Mechanical Circulatory Support in End-Stage Heart
+  Failure.
+\newblock Springer, 2017.
+\newblock P.~1--9.
+
+\bibitem{transpl_ru}
+\selectlanguageifdefined{english}
+\BibEmph{Готье~С.~В., Мойсюк~Я.~Г., Хомяков~С.~М.}
+  Органное донорство и трансплантация в
+  Российской Федерации в 2012 году (V
+  сообщение регистра Российского
+  трансплантологического общества)~//
+  \BibEmph{Вестник трансплантологии и
+  искусственных органов}.
+\newblock 2014.
+\newblock Vol.~15, no.~2.
+\newblock P.~8--22.
+
+\bibitem{Patel2014667}
+\selectlanguageifdefined{english}
+\BibEmph{Patel~C.~B., Cowger~J.~A., Zuckermann~A.} A contemporary review of
+  mechanical circulatory support~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.healun.2014.02.014}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2014.
+\newblock Vol.~33, no.~7.
+\newblock P.~667--674.
+
+\bibitem{Mancini_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Mancini~D., Colombo~P.~C.} Left Ventricular Assist Devices: A Rapidly
+  Evolving Alternative to Transplant~//
+  \href{http://dx.doi.org/10.1016/j.jacc.2015.04.039}{\BibEmph{Journal of the
+  American College of Cardiology}}.
+\newblock 2015.
+\newblock Vol.~65, no.~23.
+\newblock P.~2542--2555.
+
+\bibitem{HT_LVAD_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Garbade~J., Barten~M.~J., Bittner~H.~B., Mohr~F.-W.} Heart
+  Transplantation and Left Ventricular Assist Device Therapy: Two Comparable
+  Options in End-Stage Heart Failure?~//
+  \href{http://dx.doi.org/10.1002/clc.22124}{\BibEmph{Clinical Cardiology}}.
+\newblock 2013.
+\newblock Vol.~36, no.~7.
+\newblock P.~378--382.
+
+\bibitem{daners2017left}
+\selectlanguageifdefined{english}
+\BibEmph{Daners~M.~S., Kaufmann~F., Amacher~R. et~al.} Left Ventricular Assist
+  Devices: Challenges Toward Sustaining Long-Term Patient Care~//
+  \BibEmph{Annals of Biomedical Engineering}.
+\newblock 2017.
+\newblock P.~1--16.
+
+\bibitem{kirklin2015seventh}
+\selectlanguageifdefined{english}
+\BibEmph{Kirklin~J.~K., Naftel~D.~C., Pagani~F.~D. et~al.} Seventh INTERMACS
+  annual report: 15,000 patients and counting~// \BibEmph{The Journal of Heart
+  and Lung Transplantation}.
+\newblock 2015.
+\newblock Vol.~34, no.~12.
+\newblock P.~1495--1504.
+
+\bibitem{ottenberg_choices_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Ottenberg~A.~L., Cook~K.~E., Topazian~R.~J. et~al.} Choices for
+  Patients Without a Choice~//
+  \href{http://dx.doi.org/10.1161/CIRCOUTCOMES.113.000660}{\BibEmph{Circulation:
+  Cardiovascular Quality and Outcomes}}.
+\newblock 2014.
+\newblock Vol.~7, no.~3.
+\newblock P.~368--373.
+
+\bibitem{selzman_bridge_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Selzman~C.~H., Madden~J.~L., Healy~A.~H. et~al.} Bridge to Removal: A
+  Paradigm Shift for Left Ventricular Assist Device Therapy~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.athoracsur.2014.07.061}{\BibEmph{The
+  Annals of Thoracic Surgery}}.
+\newblock 2015.
+\newblock Vol.~99, no.~1.
+\newblock P.~360--367.
+
+\bibitem{drakos_clinical_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Drakos~S.~G., Mehra~M.~R.} Clinical myocardial recovery during
+  long-term mechanical support in advanced heart failure: {Insights} into
+  moving the field forward~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.healun.2016.01.001}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2016.
+\newblock Vol.~35, no.~4.
+\newblock P.~413--420.
+
+\bibitem{wever2016cardiac}
+\selectlanguageifdefined{english}
+\BibEmph{Wever-Pinzon~O., Drakos~S.~G., McKellar~S.~H. et~al.} Cardiac recovery
+  during long-term left ventricular assist device support~// \BibEmph{Journal
+  of the American College of Cardiology}.
+\newblock 2016.
+\newblock Vol.~68, no.~14.
+\newblock P.~1540--1553.
+
+\bibitem{reul2000blood}
+\selectlanguageifdefined{english}
+\BibEmph{Reul~H.~M., Akdis~M.} Blood pumps for circulatory support~//
+  \BibEmph{Perfusion}.
+\newblock 2000.
+\newblock Vol.~15, no.~4.
+\newblock P.~295--311.
+
+\bibitem{nose1998design}
+\selectlanguageifdefined{english}
+\BibEmph{Nose~Y.} Design and development strategy for the rotary blood pump~//
+  \BibEmph{Artificial Organs}.
+\newblock 1998.
+\newblock Vol.~22, no.~6.
+\newblock P.~438--446.
+
+\bibitem{mt2010n6_ru}
+\selectlanguageifdefined{russian}
+\BibEmph{Иткин~Г.~П., Селищев~С.~В.} Роторные
+  насосы для искусственного и
+  вспомогательного кровообращения~//
+  \BibEmph{Медицинская техника}.
+\newblock 2010.
+\newblock {\cyr\textnumero}~6.
+\newblock {\cyr\CYRS.}~39--44.
+
+\bibitem{intermacs2017}
+\selectlanguageifdefined{english}
+\BibEmph{Kirklin~J.~K., Pagani~F.~D., Kormos~R.~L. et~al.} Eighth annual
+  INTERMACS report: Special focus on framing the impact of adverse events~//
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.healun.2017.07.005}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2017.
+\newblock Vol.~36, no.~10.
+\newblock P.~1080--1086.
+
+\bibitem{mt6_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Селищев~С.~В.,
+  Телышев~Д.~В.} Развитие аппаратов
+  вспомогательного кровообращения левого
+  желудочка сердца как наиболее
+  эффективный способ лечения острой
+  сердечной недостаточности~//
+  \BibEmph{Медицинская техника}.
+\newblock 2014.
+\newblock {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~37--39.
+
+\bibitem{mt4_2015}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Селищев~С.~В.,
+  Телышев~Д.~В.} Полностью искусственное
+  сердце: современное состояние~//
+  \BibEmph{Медицинская техника}.
+\newblock 2015.
+\newblock {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~1--4.
+
+\bibitem{mt5_2015}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Селищев~С.~В.,
+  Телышев~Д.~В.} Перспективы развития
+  технологий полной замены функции сердца с
+  помощью механических систем поддержки
+  кровообращения~// \BibEmph{Медицинская
+  техника}.
+\newblock 2015.
+\newblock {\cyr\textnumero}~5.
+\newblock {\cyr\CYRS.}~5--8.
+
+\bibitem{Westaby13101998}
+\selectlanguageifdefined{english}
+\BibEmph{Westaby~S., Katsumata~T., Houel~R. et~al.} Jarvik 2000 Heart:
+  Potential for Bridge to Myocyte Recovery~//
+  \href{http://dx.doi.org/10.1161/01.CIR.98.15.1568}{\BibEmph{Circulation}}.
+\newblock 1998.
+\newblock Vol.~98, no.~15.
+\newblock P.~1568--1574.
+
+\bibitem{Healy20151794}
+\selectlanguageifdefined{english}
+\BibEmph{Healy~A.~H., Koliopoulou~A., Drakos~S.~G. et~al.} Patient-Controlled
+  Conditioning for Left Ventricular Assist Device–Induced Myocardial
+  Recovery~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.athoracsur.2014.07.058}{\BibEmph{The
+  Annals of Thoracic Surgery}}.
+\newblock 2015.
+\newblock Vol.~99, no.~5.
+\newblock P.~1794--1796.
+
+\bibitem{Jarvik_cone_bearing_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Stanfield~J.~R., Selzman~C.~H.} In Vitro Hydrodynamic Analysis of Pin
+  and Cone Bearing Designs of the Jarvik 2000 Adult Ventricular Assist
+  Device~// \href{http://dx.doi.org/10.1111/aor.12160}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2013.
+\newblock Vol.~37, no.~9.
+\newblock P.~825--833.
+
+\bibitem{Schmid20051188}
+\selectlanguageifdefined{english}
+\BibEmph{Schmid~C., Tjan~T.~D., Etz~C. et~al.} First Clinical Experience With
+  the Incor Left Ventricular Assist Device~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.healun.2004.08.024}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2005.
+\newblock Vol.~24, no.~9.
+\newblock P.~1188--1194.
+
+\bibitem{Hetzer01062004}
+\selectlanguageifdefined{english}
+\BibEmph{Hetzer~R., Weng~Y., Potapov~E.~V. et~al.} First experiences with a
+  novel magnetically suspended axial flow left ventricular assist device~//
+  \href{http://dx.doi.org/10.1016/j.ejcts.2004.02.038}{\BibEmph{European
+  Journal of Cardio-Thoracic Surgery}}.
+\newblock 2004.
+\newblock Vol.~25, no.~6.
+\newblock P.~964--970.
+
+\bibitem{DuraHeart}
+\selectlanguageifdefined{english}
+\BibEmph{Yoshitake~I., El-Banayosy~A., Yoda~M. et~al.} First Clinical
+  Application of the DuraHeart Centrifugal Ventricular Assist Device for a
+  Japanese Patient~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2009.00902.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2009.
+\newblock Vol.~33, no.~9.
+\newblock P.~763--766.
+
+\bibitem{Morshuis01062009}
+\selectlanguageifdefined{english}
+\BibEmph{Morshuis~M., El-Banayosy~A., Arusoglu~L. et~al.} European experience
+  of DuraHeart magnetically levitated centrifugal left ventricular assist
+  system~//
+  \href{http://dx.doi.org/10.1016/j.ejcts.2008.12.033}{\BibEmph{European
+  Journal of Cardio-Thoracic Surgery}}.
+\newblock 2009.
+\newblock Vol.~35, no.~6.
+\newblock P.~1020--1028.
+
+\bibitem{Frazier2001S125}
+\selectlanguageifdefined{english}
+\BibEmph{Frazier~O., Myers~T.~J., Jarvik~R.~K. et~al.} Research and development
+  of an implantable, axial-flow left ventricular assist device: the Jarvik 2000
+  Heart~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0003-4975(00)02614-X}{\BibEmph{The
+  Annals of Thoracic Surgery}}.
+\newblock 2001.
+\newblock Vol.~71, no.~3.
+\newblock P.~125--132.
+
+\bibitem{Nakashima2009199}
+\selectlanguageifdefined{english}
+\BibEmph{Nakashima~K., Kirsch~M.~E., Vermes~E. et~al.} Off-pump Replacement of
+  the Incor Implantable Axial-flow Pump~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.healun.2008.11.904}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2009.
+\newblock Vol.~28, no.~2.
+\newblock P.~199--201.
+
+\bibitem{HeartAssistFlow}
+\selectlanguageifdefined{english}
+\BibEmph{Pektok~E., Demirozu~Z.~T., Arat~N. et~al.} Remote Monitoring of Left
+  Ventricular Assist Device Parameters After HeartAssist 5 Implantation~//
+  \href{http://dx.doi.org/10.1111/aor.12144}{\BibEmph{Artificial Organs}}.
+\newblock 2013.
+\newblock Vol.~37, no.~9.
+\newblock P.~820--825.
+
+\bibitem{Loforte2017}
+\selectlanguageifdefined{english}
+\BibEmph{Loforte~A., Careddu~L., Angeli~E. et~al.}
+  \href{http://dx.doi.org/10.1007/978-3-319-43383-7_54}{ReliantHeart: Forward
+  Compatibility and TET}~// Mechanical Circulatory Support in End-Stage Heart
+  Failure.
+\newblock Springer, 2017.
+\newblock P.~569--580.
+
+\bibitem{Griffith_2001}
+\selectlanguageifdefined{english}
+\BibEmph{Griffith~B.~P., Kormos~R.~L., Borovetz~H.~S. et~al.} HeartMate II left
+  ventricular assist system: from concept to first clinical use~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0003-4975(00)02639-4}{\BibEmph{The
+  Annals of Thoracic Surgery}}.
+\newblock 2001.
+\newblock Vol.~71, no.~3.
+\newblock P.~116--120.
+
+\bibitem{molina2013current}
+\selectlanguageifdefined{english}
+\BibEmph{Molina~E.~J., Boyce~S.~W.} Current status of left ventricular assist
+  device technology~// Seminars in thoracic and cardiovascular surgery~/
+  Elsevier.
+\newblock Vol.~25.
+\newblock 2013.
+\newblock P.~56--63.
+
+\bibitem{HeartMate_II_Sheikh}
+\selectlanguageifdefined{english}
+\BibEmph{Sheikh~F.~H., Russell~S.~D.} HeartMate II continuous-flow left
+  ventricular assist system~//
+  \href{http://dx.doi.org/10.1586/erd.10.77}{\BibEmph{Expert Review of Medical
+  Devices}}.
+\newblock 2011.
+\newblock Vol.~8, no.~1.
+\newblock P.~11--21.
+
+\bibitem{Loforte20091357}
+\selectlanguageifdefined{english}
+\BibEmph{Loforte~A., Montalto~A., Ranocchi~F. et~al.} Long-Term Mechanical
+  Support With the HeartMate II LVAS~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.transproceed.2009.03.020}{\BibEmph{Transplantation
+  Proceedings}}.
+\newblock 2009.
+\newblock Vol.~41, no.~4.
+\newblock P.~1357--1359.
+
+\bibitem{farrar2007design}
+\selectlanguageifdefined{english}
+\BibEmph{Farrar~D.~J., Bourque~K., Dague~C.~P. et~al.} Design features,
+  developmental status, and experimental results with the Heartmate III
+  centrifugal left ventricular assist system with a magnetically levitated
+  rotor~// \BibEmph{ASAIO journal}.
+\newblock 2007.
+\newblock Vol.~53, no.~3.
+\newblock P.~310--315.
+
+\bibitem{heartmate_speed_modulations}
+\selectlanguageifdefined{english}
+\BibEmph{Pirbodaghi~T., Cotter~C., Bourque~K.} Power Consumption of Rotary
+  Blood Pumps: Pulsatile Versus Constant-Speed Mode~//
+  \href{http://dx.doi.org/10.1111/aor.12323}{\BibEmph{Artificial Organs}}.
+\newblock 2014.
+\newblock Vol.~38, no.~12.
+\newblock P.~1024--1028.
+
+\bibitem{Schumerehv590}
+\selectlanguageifdefined{english}
+\BibEmph{Schumer~E.~M., Black~M.~C., Monreal~G., Slaughter~M.~S.} Left
+  ventricular assist devices: current controversies and future directions~//
+  \href{http://dx.doi.org/10.1093/eurheartj/ehv590}{\BibEmph{European Heart
+  Journal}}.
+\newblock 2015.
+\newblock P.~1--8.
+
+\bibitem{larose2010design}
+\selectlanguageifdefined{english}
+\BibEmph{LaRose~J.~A., Tamez~D., Ashenuga~M., Reyes~C.} Design concepts and
+  principle of operation of the HeartWare ventricular assist system~//
+  \BibEmph{ASAIO Journal}.
+\newblock 2010.
+\newblock Vol.~56, no.~4.
+\newblock P.~285--289.
+
+\bibitem{cheung2015design}
+\selectlanguageifdefined{english}
+\BibEmph{Cheung~A., Chorpenning~K., Tamez~D. et~al.} Design Concepts and
+  Preclinical Results of a Miniaturized HeartWare Platform: The MVAD System~//
+  \BibEmph{Innovations}.
+\newblock 2015.
+\newblock Vol.~10, no.~3.
+\newblock P.~150--155.
+
+\bibitem{chorpenning2014heartware}
+\selectlanguageifdefined{english}
+\BibEmph{Chorpenning~K., Brown~M.~C., Voskoboynikov~N. et~al.} HeartWare
+  controller logs a diagnostic tool and clinical management aid for the HVAD
+  pump~// \BibEmph{ASAIO Journal}.
+\newblock 2014.
+\newblock Vol.~60, no.~1.
+\newblock P.~115--118.
+
+\bibitem{rich2017hvad}
+\selectlanguageifdefined{english}
+\BibEmph{Rich~J.~D., Burkhoff~D.} HVAD Flow Waveform Morphologies: Theoretical
+  Foundation and Implications for Clinical Practice~// \BibEmph{ASAIO Journal}.
+\newblock 2017.
+\newblock Vol.~63, no.~5.
+\newblock P.~526--535.
+
+\bibitem{Carrel01012013}
+\selectlanguageifdefined{english}
+\BibEmph{Carrel~T., Englberger~L., Kadner~A., Mohacsi~P.} Implantation of the
+  continuous flow HeartWare left ventricular assist device~//
+  \href{http://dx.doi.org/10.1093/mmcts/mmt010}{\BibEmph{Multimedia Manual of
+  Cardio-Thoracic Surgery}}.
+\newblock 2013.
+
+\bibitem{sputnik_upd}
+\selectlanguageifdefined{english}
+\BibEmph{Selishchev~S., Telyshev~D.} Optimisation of the Sputnik-VAD design~//
+  \BibEmph{International Journal of Artificial Organs}.
+\newblock 2016.
+\newblock Vol.~39, no.~8.
+\newblock P.~407--414.
+
+\bibitem{tchantchaleishvili2017clinical}
+\selectlanguageifdefined{english}
+\BibEmph{Tchantchaleishvili~V., Luc~J.~G., Cohan~C.~M. et~al.} Clinical
+  Implications of Physiologic Flow Adjustment in Continuous-Flow Left
+  Ventricular Assist Devices~// \BibEmph{ASAIO Journal}.
+\newblock 2017.
+\newblock Vol.~63, no.~3.
+\newblock P.~241--250.
+
+\bibitem{bozkurt2015physiologic}
+\selectlanguageifdefined{english}
+\BibEmph{Bozkurt~S.} Physiologic outcome of varying speed rotary blood pump
+  support algorithms: a review study~// \BibEmph{Australasian Physical \&
+  Engineering Sciences in Medicine}.
+\newblock 2015.
+\newblock P.~1--16.
+
+\bibitem{giridharan_hemodynamic_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Giridharan~G.~A., Koenig~S.~C., Soucy~K.~G. et~al.} Hemodynamic
+  changes and retrograde flow in {LVAD} failure~// \BibEmph{ASAIO Journal}.
+\newblock 2015.
+\newblock Vol.~61, no.~3.
+\newblock P.~282--291.
+
+\bibitem{mahr_intermittent_9000}
+\selectlanguageifdefined{english}
+\BibEmph{Mahr~C., Chivukula~V.~K., McGah~P. et~al.} Intermittent {Aortic}
+  {Valve} {Opening} and {Risk} of {Thrombosis} in {VAD} {Patients}.~//
+  \BibEmph{ASAIO Journal}.
+\newblock 2017.
+
+\bibitem{aggarwal_incidence_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Aggarwal~A., Pant~R., Kumar~S. et~al.} Incidence and {Management} of
+  {Gastrointestinal} {Bleeding} {With} {Continuous} {Flow} {Assist}
+  {Devices}~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.athoracsur.2012.02.035}{\BibEmph{The
+  Annals of Thoracic Surgery}}.
+\newblock 2012.
+\newblock Vol.~93, no.~5.
+\newblock P.~1534--1540.
+
+\bibitem{wever_pulsatility_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Wever-Pinzon~O., Selzman~C.~H., Drakos~S.~G. et~al.} Pulsatility and
+  the Risk of Nonsurgical Bleeding in Patients Supported With the
+  Continuous-Flow Left Ventricular Assist Device HeartMate II~//
+  \href{http://dx.doi.org/10.1161/CIRCHEARTFAILURE.112.000206}{\BibEmph{Circulation:
+  Heart Failure}}.
+\newblock 2013.
+\newblock Vol.~6, no.~3.
+\newblock P.~517--526.
+
+\bibitem{vollkron_suction_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Vollkron~M., Voitl~P., Ta~J. et~al.} Suction {Events} {During} {Left}
+  {Ventricular} {Support} and {Ventricular} {Arrhythmias}~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.healun.2007.05.011}{\BibEmph{The
+  Journal of Heart and Lung Transplantation}}.
+\newblock 2007.
+\newblock Vol.~26, no.~8.
+\newblock P.~819--825.
+
+\bibitem{salamonsen_anatomy_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Salamonsen~R.~F., Lim~E., Moloney~J. et~al.} Anatomy and {Physiology}
+  of {Left} {Ventricular} {Suction} {Induced} by {Rotary} {Blood} {Pumps}~//
+  \href{http://dx.doi.org/10.1111/aor.12550}{\BibEmph{Artificial Organs}}.
+\newblock 2015.
+\newblock Vol.~39, no.~8.
+\newblock P.~681--690.
+
+\bibitem{Vollkron2006}
+\selectlanguageifdefined{english}
+\BibEmph{Vollkron~M., Schima~H., Huber~L. et~al.} Advanced Suction Detection
+  for an Axial Flow Pump~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2006.00282.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2006.
+\newblock Vol.~30, no.~9.
+\newblock P.~665--670.
+
+\bibitem{Ng_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Ng~S.-C., Lim~E., Mason~D.~G. et~al.} Evaluation of Suction Detection
+  During Different Pumping States in an Implantable Rotary Blood Pump~//
+  \href{http://dx.doi.org/10.1111/aor.12079}{\BibEmph{Artificial Organs}}.
+\newblock 2013.
+\newblock Vol.~37, no.~8.
+\newblock P.~145--154.
+
+\bibitem{schima_noninvasive_1992}
+\selectlanguageifdefined{english}
+\BibEmph{Schima~H., Trubel~W., Moritz~A. et~al.} Noninvasive {Monitoring} of
+  {Rotary} {Blood} {Pumps}: {Necessity}, {Possibilities}, and {Limitations}~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.1992.tb00293.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 1992.
+\newblock Vol.~16, no.~2.
+\newblock P.~195--202.
+
+\bibitem{schloglhofer_international}
+\selectlanguageifdefined{english}
+\BibEmph{Schl{\"o}glhofer~T., Robson~D., Bancroft~J. et~al.} International
+  coordinator survey results on the outpatient management of patients with the
+  {HeartWare} ventricular assist system~//
+  \href{http://dx.doi.org/10.5301/ijao.5000538}{\BibEmph{International Journal
+  of Artificial Organs}}.
+\newblock Vol.~39, no.~11.
+\newblock P.~553--557.
+
+\bibitem{JTD2878}
+\selectlanguageifdefined{english}
+\BibEmph{Holley~C.~T., Harvey~L., John~R.} Left ventricular assist devices as a
+  bridge to cardiac transplantation~// \BibEmph{Journal of Thoracic Disease}.
+\newblock 2014.
+\newblock Vol.~6, no.~8.
+\newblock P.~1110--1119.
+
+\bibitem{Kyo2012101}
+\selectlanguageifdefined{english}
+\BibEmph{Kyo~S., Minami~T., Nishimura~T. et~al.} New era for therapeutic
+  strategy for heart failure: Destination therapy by left ventricular assist
+  device~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.jjcc.2012.01.001}{\BibEmph{Journal
+  of Cardiology}}.
+\newblock 2012.
+\newblock Vol.~59, no.~2.
+\newblock P.~101--109.
+
+\bibitem{lenneman2014treatment}
+\selectlanguageifdefined{english}
+\BibEmph{Lenneman~A.~J., Birks~E.~J.} Treatment strategies for myocardial
+  recovery in heart failure~// \BibEmph{Current treatment options in
+  cardiovascular medicine}.
+\newblock 2014.
+\newblock Vol.~16, no.~3.
+\newblock P.~1--9.
+
+\bibitem{Controller_review}
+\selectlanguageifdefined{english}
+\BibEmph{AlOmari~A.-H.~H., Savkin~A.~V., Stevens~M. et~al.} Developments in
+  control systems for rotary left ventricular assist devices for heart failure
+  patients: a review~// \BibEmph{Physiological Measurement}.
+\newblock 2013.
+\newblock Vol.~34, no.~1.
+\newblock P.~1--27.
+
+\bibitem{mt3_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.} Алгоритмы
+  управления роторными аппаратами
+  вспомогательного кровообращения~//
+  \BibEmph{Медицинская техника}.
+\newblock 2016.
+\newblock {\cyr\textnumero}~3.
+\newblock {\cyr\CYRS.}~8--11.
+
+\bibitem{bertram2005measurement}
+\selectlanguageifdefined{english}
+\BibEmph{Bertram~C.} Measurement for implantable rotary blood pumps~//
+  \BibEmph{Physiological measurement}.
+\newblock 2005.
+\newblock Vol.~26, no.~4.
+\newblock P.~99--117.
+
+\bibitem{reyes2016accuracy}
+\selectlanguageifdefined{english}
+\BibEmph{Reyes~C., Voskoboynikov~N., Chorpenning~K. et~al.} Accuracy of the
+  HVAD Pump Flow Estimation Algorithm~// \BibEmph{ASAIO Journal}.
+\newblock 2016.
+\newblock Vol.~62, no.~1.
+\newblock P.~15--19.
+
+\bibitem{Pirbodaghi_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Pirbodaghi~T., Weber~A., Carrel~T., Vandenberghe~S.} Effect of
+  Pulsatility on the Mathematical Modeling of Rotary Blood Pumps~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2011.01276.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2011.
+\newblock Vol.~35, no.~8.
+\newblock P.~825--832.
+
+\bibitem{Granegger_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Granegger~M., Moscato~F., Casas~F. et~al.} Development of a Pump Flow
+  Estimator for Rotary Blood Pumps to Enhance Monitoring of Ventricular
+  Function~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2012.01503.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2012.
+\newblock Vol.~36, no.~8.
+\newblock P.~691--699.
+
+\bibitem{Lim_2011}
+\selectlanguageifdefined{english}
+\BibEmph{Lim~E., Alomari~A.-H.~H., Savkin~A.~V. et~al.} A Method for Control of
+  an Implantable Rotary Blood Pump for Heart Failure Patients Using Noninvasive
+  Measurements~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2011.01268.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2011.
+\newblock Vol.~35, no.~8.
+\newblock P.~174--180.
+
+\bibitem{wang2015rotary}
+\selectlanguageifdefined{english}
+\BibEmph{Wang~Y., Koenig~S.~C., Slaughter~M.~S., Giridharan~G.~A.} Rotary Blood
+  Pump Control Strategy for Preventing Left Ventricular Suction~//
+  \BibEmph{ASAIO Journal}.
+\newblock 2015.
+\newblock Vol.~61, no.~1.
+\newblock P.~21--30.
+
+\bibitem{wang2015suction}
+\selectlanguageifdefined{english}
+\BibEmph{Wang~Y., Koenig~S.~C., Slaughter~M.~S., Giridharan~G.~A.} Suction
+  prevention and physiologic control of continuous flow left ventricular assist
+  devices using intrinsic pump parameters~// \BibEmph{ASAIO Journal}.
+\newblock 2015.
+\newblock Vol.~61, no.~2.
+\newblock P.~170--177.
+
+\bibitem{pennings2015estimation}
+\selectlanguageifdefined{english}
+\BibEmph{Pennings~K., van Tuijl~S., van~de Vosse~F.~N. et~al.} Estimation of
+  left ventricular pressure with the pump as <<sensor>> in patients with a
+  continuous flow LVAD~// \BibEmph{The International journal of artificial
+  organs}.
+\newblock 2015.
+\newblock Vol.~38, no.~8.
+\newblock P.~433--443.
+
+\bibitem{hijikata2015estimating}
+\selectlanguageifdefined{english}
+\BibEmph{Hijikata~W., Rao~J., Abe~S. et~al.} Estimating Flow Rate Using the
+  Motor Torque in a Rotary Blood Pump~// \BibEmph{Sensors and Materials}.
+\newblock 2015.
+\newblock Vol.~27, no.~4.
+\newblock P.~297--308.
+
+\bibitem{bioengineering1010022}
+\selectlanguageifdefined{english}
+\BibEmph{Amacher~R., Asprion~J., Ochsner~G. et~al.} Numerical optimal control
+  of turbo dynamic ventricular assist devices~// \BibEmph{Bioengineering}.
+\newblock 2013.
+\newblock Vol.~1, no.~1.
+\newblock P.~22--46.
+
+\bibitem{moscato2012evaluation}
+\selectlanguageifdefined{english}
+\BibEmph{Moscato~F., Granegger~M., Naiyanetr~P. et~al.} Evaluation of left
+  ventricular relaxation in rotary blood pump recipients using the pump flow
+  waveform: a simulation study~// \BibEmph{Artificial organs}.
+\newblock 2012.
+\newblock Vol.~36, no.~5.
+\newblock P.~470--478.
+
+\bibitem{Pennings_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Pennings~K.~A., Martina~J.~R., Rodermans~B.~F. et~al.} Pump Flow
+  Estimation From Pressure Head and Power Uptake for the HeartAssist5,
+  HeartMate II, and HeartWare VADs~// \BibEmph{ASAIO Journal}.
+\newblock 2013.
+\newblock Vol.~59, no.~4.
+\newblock P.~420--426.
+
+\bibitem{alomari2011non}
+\selectlanguageifdefined{english}
+\BibEmph{AlOmari~A., Savkin~A., Ayre~P. et~al.} Non-invasive estimation and
+  control of inlet pressure in an implantable rotary blood pump for heart
+  failure patients~// \BibEmph{Physiological measurement}.
+\newblock 2011.
+\newblock Vol.~32, no.~8.
+\newblock P.~1035--1061.
+
+\bibitem{alomari2009non}
+\selectlanguageifdefined{english}
+\BibEmph{AlOmari~A., Savkin~A., Karantonis~D. et~al.} Non-invasive estimation
+  of pulsatile flow and differential pressure in an implantable rotary blood
+  pump for heart failure patients~// \BibEmph{Physiological measurement}.
+\newblock 2009.
+\newblock Vol.~30, no.~4.
+\newblock P.~1--16.
+
+\bibitem{gao2012pulsatile}
+\selectlanguageifdefined{english}
+\BibEmph{Gao~B., Chang~Y., Gu~K. et~al.} A pulsatile control algorithm of
+  continuous-flow pump for heart recovery~// \BibEmph{ASAIO Journal}.
+\newblock 2012.
+\newblock Vol.~58, no.~4.
+\newblock P.~343--352.
+
+\bibitem{Bakouri_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Bakouri~M.~A., Salamonsen~R.~F., Savkin~A.~V. et~al.} A Sliding
+  Mode-Based Starling-Like Controller for Implantable Rotary Blood Pumps~//
+  \href{http://dx.doi.org/10.1111/aor.12223}{\BibEmph{Artificial Organs}}.
+\newblock 2014.
+\newblock Vol.~38, no.~7.
+\newblock P.~587--593.
+
+\bibitem{wu2009adaptive}
+\selectlanguageifdefined{english}
+\BibEmph{Wu~Y.} Adaptive physiological speed/flow control of rotary blood pumps
+  in permanent implantation using intrinsic pump parameters~// \BibEmph{ASAIO
+  Journal}.
+\newblock 2009.
+\newblock Vol.~55, no.~4.
+\newblock P.~335--339.
+
+\bibitem{Malagutti_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Malagutti~N., Karantonis~D.~M., Cloherty~S.~L. et~al.} Noninvasive
+  Average Flow Estimation for an Implantable Rotary Blood Pump: A New Algorithm
+  Incorporating the Role of Blood Viscosity~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2007.00339.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2007.
+\newblock Vol.~31, no.~1.
+\newblock P.~45--52.
+
+\bibitem{4352467}
+\selectlanguageifdefined{english}
+\BibEmph{Karantonis~D., Cloherty~S., Mason~D. et~al.}
+  \href{http://dx.doi.org/10.1109/IEMBS.2007.4352467}{Noninvasive Pulsatile
+  Flow Estimation for an Implantable Rotary Blood Pump}~// 29th Annual
+  International Conference of the IEEE Engineering in Medicine and Biology
+  Society.
+\newblock 2007. "--- Aug.
+\newblock P.~1018--1021.
+
+\bibitem{Giridharan2003}
+\selectlanguageifdefined{english}
+\BibEmph{Giridharan~G.~A., Skliar~M.} Control Strategy for Maintaining
+  Physiological Perfusion with Rotary Blood Pumps~//
+  \href{http://dx.doi.org/10.1046/j.1525-1594.2003.07089.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2003.
+\newblock Vol.~27, no.~7.
+\newblock P.~639--648.
+
+\bibitem{simaan2009dynamical}
+\selectlanguageifdefined{english}
+\BibEmph{Simaan~M.~A., Ferreira~A., Chen~S. et~al.} A dynamical state space
+  representation and performance analysis of a feedback-controlled rotary left
+  ventricular assist device~// \BibEmph{IEEE Transactions on Control Systems
+  Technology}.
+\newblock 2009.
+\newblock Vol.~17, no.~1.
+\newblock P.~15--28.
+
+\bibitem{choi2007hemodynamic}
+\selectlanguageifdefined{english}
+\BibEmph{Choi~S., Boston~J.~R., Antaki~J.~F.} Hemodynamic controller for left
+  ventricular assist device based on pulsatility ratio~// \BibEmph{Artificial
+  organs}.
+\newblock 2007.
+\newblock Vol.~31, no.~2.
+\newblock P.~114--125.
+
+\bibitem{lim2008noninvasive}
+\selectlanguageifdefined{english}
+\BibEmph{Lim~E., Karantonis~D.~M., Reizes~J.~A. et~al.} Noninvasive average
+  flow and differential pressure estimation for an implantable rotary blood
+  pump using dimensional analysis~// \BibEmph{IEEE Transactions on Biomedical
+  Engineering}.
+\newblock 2008.
+\newblock Vol.~55, no.~8.
+\newblock P.~2094--2101.
+
+\bibitem{yoshizawa2002sensorless}
+\selectlanguageifdefined{english}
+\BibEmph{Yoshizawa~M., Sato~T., Tanaka~A. et~al.} Sensorless estimation of
+  pressure head and flow of a continuous flow artificial heart based on input
+  power and rotational speed~// \BibEmph{ASAIO journal}.
+\newblock 2002.
+\newblock Vol.~48, no.~4.
+\newblock P.~443--448.
+
+\bibitem{kitamura2000physical}
+\selectlanguageifdefined{english}
+\BibEmph{Kitamura~T., Matsushima~Y., Tokuyama~T. et~al.} Physical Model-Based
+  Indirect Measurements of Blood Pressure and Flow Using a Centrifugal Pump~//
+  \BibEmph{Artificial organs}.
+\newblock 2000.
+\newblock Vol.~24, no.~8.
+\newblock P.~589--593.
+
+\bibitem{xu2000computer}
+\selectlanguageifdefined{english}
+\BibEmph{Xu~L., Fu~M.} Computer modeling of interactions of an electric motor,
+  circulatory system, and rotary blood pump~// \BibEmph{ASAIO journal}.
+\newblock 2000.
+\newblock Vol.~46, no.~5.
+\newblock P.~604--611.
+
+\bibitem{takami1997flow}
+\selectlanguageifdefined{english}
+\BibEmph{Takami~Y., Otsuka~G., Mueller~J. et~al.} Flow characteristics and
+  required control algorithm of an implantable centrifugal left ventricular
+  assist device~// \BibEmph{Heart and vessels}.
+\newblock 1997.
+\newblock Vol.~12, no.~2.
+\newblock P.~92--97.
+
+\bibitem{ayre2000sensorless}
+\selectlanguageifdefined{english}
+\BibEmph{Ayre~P., Vidakovic~S., Tansley~G. et~al.} Sensorless flow and head
+  estimation in the VentrAssist rotary blood pump~// \BibEmph{Artificial
+  Organs}.
+\newblock 2000.
+\newblock Vol.~24, no.~8.
+\newblock P.~585--588.
+
+\bibitem{Stanfield_2012}
+\selectlanguageifdefined{english}
+\BibEmph{Stanfield~J., Selzman~C.} Pressure Sensitivity of Axial-Flow and
+  Centrifugal-Flow Left Ventricular Assist Devices~//
+  \href{http://dx.doi.org/10.1007/s13239-012-0110-x}{\BibEmph{Cardiovascular
+  Engineering and Technology}}.
+\newblock 2012.
+\newblock Vol.~3, no.~4.
+\newblock P.~413--423.
+
+\bibitem{medtech_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Селищев~С.~В.,
+  Телышев~Д.~В.} Критерии неинвазивной
+  оценки расхода имплантируемого осевого
+  насоса крови~// 16-я научно-техническая
+  конференция <<МедТех>>.
+\newblock 2014.
+\newblock {\cyr\CYRS.}~162--163.
+
+\bibitem{IMM2004}
+\selectlanguageifdefined{english}
+\BibEmph{Madsen~K., Nielsen~H.~B., Tingleff~O.}
+\newblock Methods for Non-Linear Least Squares Problems (2nd ed.).
+\newblock 2004.
+
+\bibitem{gavin2011levenberg}
+\selectlanguageifdefined{english}
+\BibEmph{Gavin~H.} The Levenberg-Marquardt method for nonlinear least squares
+  curve-fitting problems~// \BibEmph{Department of Civil and Environmental
+  Engineering, Duke University}.
+\newblock 2011.
+\newblock P.~1--15.
+
+\bibitem{draper2014applied}
+\selectlanguageifdefined{english}
+\BibEmph{Draper~N.~R., Smith~H.} Applied regression analysis.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem{Kokalari_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Kokalari~I., Karaja~T., Guerrisi~M.} Review on lumped parameter method
+  for modeling the blood flow in systemic arteries~// \BibEmph{Journal of
+  Biomedical Science \& Engineering}.
+\newblock 2013.
+\newblock Vol.~6, no.~1.
+
+\bibitem{shi2011review}
+\selectlanguageifdefined{english}
+\BibEmph{Shi~Y., Lawford~P., Hose~R. et~al.} Review of zero-D and 1-D models of
+  blood flow in the cardiovascular system~// \BibEmph{Biomed. Eng. Online}.
+\newblock 2011.
+\newblock Vol.~10, no.~1.
+\newblock P.~33.
+
+\bibitem{Cox_2009}
+\selectlanguageifdefined{english}
+\BibEmph{Cox~L.~G., Loerakker~S., Rutten~M.~C. et~al.} A Mathematical Model to
+  Evaluate Control Strategies for Mechanical Circulatory Support~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2009.00755.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2009.
+\newblock Vol.~33, no.~8.
+\newblock P.~593--603.
+
+\bibitem{Martina_2013_simulation}
+\selectlanguageifdefined{english}
+\BibEmph{Martina~J.~R., Bovendeerd~P.~H., de~Jonge~N. et~al.} Simulation of
+  Changes in Myocardial Tissue Properties During Left Ventricular Assistance
+  With a Rotary Blood Pump~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2012.01548.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2013.
+\newblock Vol.~37, no.~6.
+\newblock P.~531--540.
+
+\bibitem{smith2005experimentally}
+\selectlanguageifdefined{english}
+\BibEmph{Smith~B.~W., Chase~J.~G., Shaw~G.~M., Nokes~R.~I.} Experimentally
+  verified minimal cardiovascular system model for rapid diagnostic
+  assistance~// \BibEmph{Control engineering practice}.
+\newblock 2005.
+\newblock Vol.~13, no.~9.
+\newblock P.~1183--1193.
+
+\bibitem{Arts_1991}
+\selectlanguageifdefined{english}
+\BibEmph{Arts~T., Bovendeerd~P., Prinzen~F., Reneman~R.} Relation between left
+  ventricular cavity pressure and volume and systolic fiber stress and strain
+  in the wall~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0006-3495(91)82201-9}{\BibEmph{Biophysical
+  Journal}}.
+\newblock 1991.
+\newblock Vol.~59, no.~1.
+\newblock P.~93--102.
+
+\bibitem{Arts2003731}
+\selectlanguageifdefined{english}
+\BibEmph{Arts~T., Bovendeerd~P., Delhaas~T., Prinzen~F.} Modeling the relation
+  between cardiac pump function and myofiber mechanics~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0021-9290(02)00451-7}{\BibEmph{Journal
+  of Biomechanics}}.
+\newblock 2003.
+\newblock Vol.~36, no.~5.
+\newblock P.~731--736.
+
+\bibitem{Bovendeerd_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Bovendeerd~P.~H., Borsje~P., Arts~T., Vosse~F.~N.} Dependence of
+  Intramyocardial Pressure and Coronary Flow on Ventricular Loading and
+  Contractility: A Model Study~//
+  \href{http://dx.doi.org/10.1007/s10439-006-9189-2}{\BibEmph{Annals of
+  Biomedical Engineering}}.
+\newblock 2006.
+\newblock Vol.~34, no.~12.
+\newblock P.~1833--1845.
+
+\bibitem{miee_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Разработка
+  математической модели
+  сердечно-сосудистой системы для изучения
+  изменений в гемодинамике при поддержке
+  аппарата вспомогательного
+  кровообращения~// 21-я Всероссийская
+  конференция <<Микроэлектроника и
+  информатика>>.
+\newblock 2014.
+\newblock {\cyr\CYRS.}~227.
+
+\bibitem{mt4_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.}
+  Математическая модель
+  сердечно-сосудистой системы
+  педиатрических пациентов с врожденными
+  пороками сердца~// \BibEmph{Медицинская
+  техника}.
+\newblock 2016.
+\newblock {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~9--11.
+
+\bibitem{rgc_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S.} Development of a cardiovascular system model for
+  investigation of biventricular circulatory support~// XII Russian-German
+  Conference on Biomedical Engineering.
+\newblock 2016.
+\newblock P.~200--204.
+
+\bibitem{tkmf_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Моделирование эффекта
+  гистерезиса в расходных характеристиках
+  имплантируемого осевого насоса крови~// 6-я
+  Троицкая конференция <<Медицинская физика
+  и инновации в медицине>>.
+\newblock 2014.
+\newblock {\cyr\CYRS.}~530--531.
+
+\bibitem{stanfield_vitro_2013}
+\selectlanguageifdefined{english}
+\BibEmph{Stanfield~J.~R., Selzman~C.~H.} In Vitro Pulsatility Analysis of
+  Axial-Flow and Centrifugal-Flow Left Ventricular Assist Devices~//
+  \href{http://dx.doi.org/10.1115/1.4023525}{\BibEmph{Journal of Biomechanical
+  Engineering}}.
+\newblock 2013.
+\newblock Vol. 135, no.~3.
+\newblock P.~1--6.
+
+\bibitem{Thorsten_1996}
+\selectlanguageifdefined{english}
+\BibEmph{Siess~T., Meyns~B., Spielvogel~K. et~al.} Hemodynamic System Analysis
+  of Intraarterial Microaxial Pumps In Vitro and In Vivo~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.1996.tb04497.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 1996.
+\newblock Vol.~20, no.~5.
+\newblock P.~650--661.
+
+\bibitem{Vollkron_2002}
+\selectlanguageifdefined{english}
+\BibEmph{Vollkron~M., Schima~H., Huber~L., Wieselthaler~G.} Interaction of the
+  Cardiovascular System with an Implanted Rotary Assist Device: Simulation
+  Study with a Refined Computer Model~//
+  \href{http://dx.doi.org/10.1046/j.1525-1594.2002.06870.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2002.
+\newblock Vol.~26, no.~4.
+\newblock P.~349--359.
+
+\bibitem{HQ_s_d_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Noor~M.~R., Ho~C.~H., Parker~K.~H. et~al.} Investigation of the
+  Characteristics of HeartWare HVAD and Thoratec HeartMate II Under Steady and
+  Pulsatile Flow Conditions~//
+  \href{http://dx.doi.org/10.1111/aor.12593}{\BibEmph{Artificial Organs}}.
+\newblock 2015.
+\newblock P.~1--12.
+
+\bibitem{embc_2015_2}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} Comparative study of influence of two
+  rotary blood pumps on the cardiovascular system~// 37th Annual International
+  Conference of the IEEE Engineering in Medicine and Biology Society.
+\newblock 2015.
+\newblock P.~115.
+
+\bibitem{mt4_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Селищев~С.~В.} Оценка
+  изменений в работе правого желудочка
+  сердца при наличии аппарата
+  вспомогательного кровообращения левого
+  желудочка сердца~// \BibEmph{Медицинская
+  техника}.
+\newblock 2014.
+\newblock {\cyr\textnumero}~4.
+\newblock {\cyr\CYRS.}~28--32.
+
+\bibitem{rgc_2014}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S.} Simulation of hemodynamic changes associated with the
+  right ventricular failure in the presence of a left ventricular assist
+  device~// X Russian-German Conference on Biomedical Engineering.
+\newblock 2014.
+\newblock P.~122--123.
+
+\bibitem{mt1_2017}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.}
+  Исследование роторного насоса для
+  поддержки кровообращения правого
+  желудочка сердца при механической
+  поддержке кровообращения обоих
+  желудочков сердца~// \BibEmph{Медицинская
+  техника}.
+\newblock 2017.
+\newblock {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~24--26.
+
+\bibitem{freme_2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Анализ изменений в
+  гемодинамике для случая механической
+  поддержки кровообращения обоих
+  желудочков сердца~// 11-я международная
+  конференция <<Физика и радиоэлектроника в
+  медицине и экологии>>.
+\newblock 2014.
+\newblock {\cyr\CYRS.}~213--214.
+
+\bibitem{ayre_identifying_2001}
+\selectlanguageifdefined{english}
+\BibEmph{Ayre~P.~J., Lovell~N.~H., Morris~R.~W. et~al.}
+  \href{http://dx.doi.org/10.1109/IEMBS.2001.1018958}{Identifying
+  physiologically significant pumping state transitions in implantable rotary
+  blood pumps used as left ventricular assist devices: an in-vivo study}~//
+  23rd Annual International Conference of the IEEE Engineering in Medicine and
+  Biology Society.
+\newblock 2001.
+\newblock P.~445--448.
+
+\bibitem{Karantonis_2006}
+\selectlanguageifdefined{english}
+\BibEmph{Karantonis~D.~M., Lovell~N.~H., Ayre~P.~J. et~al.} Identification and
+  Classification of Physiologically Significant Pumping States in an
+  Implantable Rotary Blood Pump~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2006.00283.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2006.
+\newblock Vol.~30, no.~9.
+\newblock P.~671--679.
+
+\bibitem{Karantonis_2007}
+\selectlanguageifdefined{english}
+\BibEmph{Karantonis~D.~M., Lovell~N.~H., Ayre~P.~J. et~al.} Classification of
+  Physiologically Significant Pumping States in an Implantable Rotary Blood
+  Pump: Effects of Cardiac Rhythm Disturbances~//
+  \href{http://dx.doi.org/10.1111/j.1525-1594.2007.00409.x}{\BibEmph{Artificial
+  Organs}}.
+\newblock 2007.
+\newblock Vol.~31, no.~6.
+\newblock P.~476--479.
+
+\bibitem{karantonis2007classification}
+\selectlanguageifdefined{english}
+\BibEmph{Karantonis~D.~M., Mason~D.~G., Salamonsen~R.~F. et~al.} Classification
+  of physiologically significant pumping states in an implantable rotary blood
+  pump: patient trial results~// \BibEmph{ASAIO Journal}.
+\newblock 2007.
+\newblock Vol.~53, no.~5.
+\newblock P.~617--622.
+
+\bibitem{mt6_2014_main}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.}
+  Моделирование изменений в динамике
+  течения крови через имплантируемый
+  осевой насос~// \BibEmph{Медицинская техника}.
+\newblock 2014.
+\newblock {\cyr\textnumero}~6.
+\newblock {\cyr\CYRS.}~44--47.
+
+\bibitem{rgc_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} A method for identification of pumping
+  states of an implantable rotary blood pump~// XI German-Russian Conference on
+  Biomedical Engineering.
+\newblock 2015.
+\newblock P.~159--161.
+
+\bibitem{asaio_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} Control strategy for an implantable
+  rotary blood pump based on identification of pumping states~// 61st ASAIO
+  Annual Conference.
+\newblock 2015.
+\newblock P.~4.
+
+\bibitem{embc_2015_1}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} Design concept of patient-adaptive
+  control method for a ventricular assist device~// 37th Annual International
+  Conference of the IEEE Engineering in Medicine and Biology Society.
+\newblock 2015.
+\newblock P.~116.
+
+\bibitem{miee_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Концепция метода
+  управления роторным насосом крови путем
+  определения режимов работы насоса на
+  основе результатов in vitro испытаний АВК
+  <<Спутник>>~// 23-я Всероссийская конференция
+  <<Микроэлектроника и информатика>>.
+\newblock 2016.
+\newblock {\cyr\CYRS.}~272.
+
+\bibitem{miee_2015}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Определение основных
+  требований к системе управления
+  аппаратом вспомогательного
+  кровообращения левого желудочка сердца~//
+  22-я Всероссийская конференция
+  <<Микроэлектроника и информатика>>.
+\newblock 2015.
+\newblock {\cyr\CYRS.}~325.
+
+\bibitem{stm_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.,
+  Селищев~С.~В.} Метод управления роторным
+  насосом крови для системы
+  вспомогательного кровообращения левого
+  желудочка сердца~// \BibEmph{Современные
+  технологии в медицине}.
+\newblock 2016.
+\newblock {\cyr\CYRT.}~8, {\cyr\textnumero}~1.
+\newblock {\cyr\CYRS.}~28--33.
+
+\bibitem{esao_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} Investigation of control objectives
+  for the heart failure treatment using the control strategy of a rotary blood
+  pump~// 42th ESAO conference.
+\newblock 2015.
+\newblock P.~403.
+
+\bibitem{isrbp_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V.} An approach to the evaluation and
+  control of a rotary blood pump using in vitro experimental results for two
+  generations of LVAD Sputnik~// 24th Congress of the International Society for
+  Rotary Blood Pumps.
+\newblock 2016.
+\newblock P.~70.
+
+\bibitem{physbio_2017}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S.} A control algorithm of flow balance for a
+  biventricular assist device~// 2nd International Symposium <<Physics,
+  Engineering and Technologies for Biomedicine>>.
+\newblock 2017.
+\newblock P.~341--342.
+
+\bibitem{Misgeld201535}
+\selectlanguageifdefined{english}
+\BibEmph{Misgeld~B.~J., Rüschen~D., Schwandtner~S. et~al.} Robust
+  decentralised control of a hydrodynamic human circulatory system simulator~//
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.bspc.2015.04.004}{\BibEmph{Biomedical
+  Signal Processing and Control}}.
+\newblock 2015.
+\newblock Vol.~20, no.~1.
+\newblock P.~35--44.
+
+\bibitem{heinke_modeling_2015}
+\selectlanguageifdefined{english}
+\BibEmph{Heinke~S., Pereira~C., Leonhardt~S., Walter~M.} Modeling a healthy and
+  a person with heart failure conditions using the object-oriented modeling
+  environment {Dymola}~//
+  \href{http://dx.doi.org/10.1007/s11517-015-1384-6}{\BibEmph{Medical \&
+  Biological Engineering \& Computing}}.
+\newblock 2015.
+\newblock Vol.~53, no.~10.
+\newblock P.~1049--1068.
+
+\bibitem{esao_2017}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S.} Quantitative assessment of heart-pump interaction for
+  an axial-flow rotary blood pump Sputnik: in vitro study~// 44th ESAO and 7th
+  IFAO Congress.
+\newblock 2017.
+\newblock P.~454.
+
+\bibitem{mt6_2015}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С., Телышев~Д.~В.}
+  Исследование чувствительности роторного
+  насоса крови <<Спутник>> к преднагрузке и
+  постнагрузке~// \BibEmph{Медицинская техника}.
+\newblock 2015.
+\newblock {\cyr\textnumero}~6.
+\newblock {\cyr\CYRS.}~27--30.
+
+\bibitem{mt6_2016}
+\selectlanguageifdefined{russian}
+\BibEmph{Петухов~Д.~С.} Моделирование и
+  управление расходно-напорными
+  характеристиками имплантируемого насоса
+  крови АВК-Н <<Спутник>>~// \BibEmph{Медицинская
+  техника}.
+\newblock 2016.
+\newblock {\cyr\textnumero}~6.
+\newblock {\cyr\CYRS.}~52--55.
+
+\bibitem{storn1997differential}
+\selectlanguageifdefined{english}
+\BibEmph{Storn~R., Price~K.} Differential evolution -- a simple and efficient
+  heuristic for global optimization over continuous spaces~// \BibEmph{Journal
+  of global optimization}.
+\newblock 1997.
+\newblock Vol.~11, no.~4.
+\newblock P.~341--359.
+
+\bibitem{price2006differential}
+\selectlanguageifdefined{english}
+\BibEmph{Price~K., Storn~R.~M., Lampinen~J.~A.} Differential evolution: a
+  practical approach to global optimization.
+\newblock Springer Science \& Business Media, 2006.
+
+\bibitem{asaio_2016}
+\selectlanguageifdefined{english}
+\BibEmph{Petukhov~D.~S., Telyshev~D.~V., Selishchev~S.~V.} A method for
+  identification of pumping states in an implantable rotary blood pump:
+  experimental validation for the LVAD Sputnik~// 62nd ASAIO Annual Conference.
+\newblock 2016.
+\newblock P.~10.
+
+\end{thebibliography}
